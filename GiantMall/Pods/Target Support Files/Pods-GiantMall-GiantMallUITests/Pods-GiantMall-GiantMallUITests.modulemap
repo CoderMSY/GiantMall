@@ -1,0 +1,6 @@
+framework module Pods_GiantMall_GiantMallUITests {
+  umbrella header "Pods-GiantMall-GiantMallUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

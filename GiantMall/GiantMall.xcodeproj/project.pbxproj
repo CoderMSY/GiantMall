@@ -1,0 +1,1228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9DB052BF8C40C3B58D64EA /* libPods-GiantMallTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CAAA22275E750EBE61B62E /* libPods-GiantMallTests.a */; };
+		53AAE5598063A02145604444 /* libPods-GiantMall-GiantMallUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E59ACF9C2078E698345ABC4 /* libPods-GiantMall-GiantMallUITests.a */; };
+		7E2FC4422EDB4163003FCDDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC4412EDB4163003FCDDA /* AppDelegate.m */; };
+		7E2FC4452EDB4163003FCDDA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC4442EDB4163003FCDDA /* SceneDelegate.m */; };
+		7E2FC4482EDB4163003FCDDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC4472EDB4163003FCDDA /* ViewController.m */; };
+		7E2FC44B2EDB4163003FCDDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC4492EDB4163003FCDDA /* Main.storyboard */; };
+		7E2FC44D2EDB4166003FCDDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC44C2EDB4166003FCDDA /* Assets.xcassets */; };
+		7E2FC4502EDB4166003FCDDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC44E2EDB4166003FCDDA /* LaunchScreen.storyboard */; };
+		7E2FC4532EDB4166003FCDDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC4522EDB4166003FCDDA /* main.m */; };
+		7E2FC45D2EDB4167003FCDDA /* GiantMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC45C2EDB4167003FCDDA /* GiantMallTests.m */; };
+		7E2FC4672EDB4167003FCDDA /* GiantMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC4662EDB4167003FCDDA /* GiantMallUITests.m */; };
+		7E2FC4692EDB4167003FCDDA /* GiantMallUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC4682EDB4167003FCDDA /* GiantMallUITestsLaunchTests.m */; };
+		E05A8F792EDC0B8900A485B1 /* FPLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F782EDC0B8900A485B1 /* FPLoginView.m */; };
+		E05A8F7C2EDC0B9400A485B1 /* FPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F7B2EDC0B9400A485B1 /* FPLoginViewController.m */; };
+		E05A8F7F2EDC0D0B00A485B1 /* FPAppInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F7E2EDC0D0B00A485B1 /* FPAppInteractor.m */; };
+		E05A8F832EDC173300A485B1 /* FPLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F822EDC173300A485B1 /* FPLoginRequest.m */; };
+		E05A8F872EDC192500A485B1 /* FPLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F862EDC192500A485B1 /* FPLoginManager.m */; };
+		E05A8F8A2EDC193500A485B1 /* FPLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F892EDC193500A485B1 /* FPLogin.m */; };
+		E05A8F8E2EDC1A5900A485B1 /* FPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F8C2EDC1A5900A485B1 /* FPFileManager.m */; };
+		E05A8F922EDC22BA00A485B1 /* FPKeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F912EDC22BA00A485B1 /* FPKeyedArchiver.m */; };
+		E05A8F952EDC275B00A485B1 /* FPTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F942EDC275B00A485B1 /* FPTheme.m */; };
+		E05A8F982EDC2A8000A485B1 /* FPHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F972EDC2A8000A485B1 /* FPHomeView.m */; };
+		E05A8F9D2EDC2BEB00A485B1 /* FPBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F9C2EDC2BEB00A485B1 /* FPBaseCollectionViewCell.m */; };
+		E05A8FA02EDC2C1000A485B1 /* FPHomeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8F9F2EDC2C1000A485B1 /* FPHomeBannerCell.m */; };
+		E05A8FA32EDC616000A485B1 /* FPHomeIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8FA22EDC616000A485B1 /* FPHomeIconCell.m */; };
+		E05A8FA62EDC680E00A485B1 /* FPTheme+FPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8FA52EDC680E00A485B1 /* FPTheme+FPAdd.m */; };
+		E05A8FA92EDC6C1800A485B1 /* FPHomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8FA82EDC6C1800A485B1 /* FPHomeCellModel.m */; };
+		E05A8FAF2EDC74BA00A485B1 /* FPGoodListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E05A8FAE2EDC74BA00A485B1 /* FPGoodListRequest.m */; };
+		E0C678082EDC7AA900BC8476 /* FPGood.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C678072EDC7AA900BC8476 /* FPGood.m */; };
+		E0C6780B2EDC7D4600BC8476 /* FPHomeGoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C6780A2EDC7D4600BC8476 /* FPHomeGoodCell.m */; };
+		E0E9F45C2EDB442D0075FF54 /* FPTabbarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F45A2EDB442D0075FF54 /* FPTabbarConfig.m */; };
+		E0E9F47C2EDB44730075FF54 /* UIColor+FPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4692EDB44730075FF54 /* UIColor+FPAdd.m */; };
+		E0E9F47D2EDB44730075FF54 /* FPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4612EDB44730075FF54 /* FPBaseViewController.m */; };
+		E0E9F47E2EDB44730075FF54 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4782EDB44730075FF54 /* YYWeakProxy.m */; };
+		E0E9F47F2EDB44730075FF54 /* UIView+FPLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F46D2EDB44730075FF54 /* UIView+FPLoading.m */; };
+		E0E9F4802EDB44730075FF54 /* FPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4702EDB44730075FF54 /* FPNavigationController.m */; };
+		E0E9F4812EDB44730075FF54 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4762EDB44730075FF54 /* YYFPSLabel.m */; };
+		E0E9F4822EDB44730075FF54 /* UIView+FPKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F46B2EDB44730075FF54 /* UIView+FPKit.m */; };
+		E0E9F4832EDB44730075FF54 /* NSDate+FPCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4652EDB44730075FF54 /* NSDate+FPCalendar.m */; };
+		E0E9F4842EDB44730075FF54 /* FPPopupMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4732EDB44730075FF54 /* FPPopupMenuView.m */; };
+		E0E9F4852EDB44730075FF54 /* UIButton+FPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4672EDB44730075FF54 /* UIButton+FPAdd.m */; };
+		E0E9F4892EDB44A40075FF54 /* FPColorConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4882EDB44A40075FF54 /* FPColorConfig.m */; };
+		E0E9F48D2EDB45C10075FF54 /* FPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F48C2EDB45C10075FF54 /* FPHomeViewController.m */; };
+		E0E9F4912EDB45FF0075FF54 /* FPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4902EDB45FF0075FF54 /* FPRequest.m */; };
+		E0E9F4992EDB47510075FF54 /* FPThemeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E9F4982EDB47510075FF54 /* FPThemeRequest.m */; };
+		EF93856C993E7814A745A37C /* libPods-GiantMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F84E8EE18D80174B9A769F6A /* libPods-GiantMall.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E2FC4592EDB4167003FCDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2FC4352EDB4163003FCDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E2FC43C2EDB4163003FCDDA;
+			remoteInfo = GiantMall;
+		};
+		7E2FC4632EDB4167003FCDDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2FC4352EDB4163003FCDDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E2FC43C2EDB4163003FCDDA;
+			remoteInfo = GiantMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E59ACF9C2078E698345ABC4 /* libPods-GiantMall-GiantMallUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GiantMall-GiantMallUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E814AE3CCB988F15158A71 /* Pods-GiantMall-GiantMallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantMall-GiantMallUITests.release.xcconfig"; path = "Target Support Files/Pods-GiantMall-GiantMallUITests/Pods-GiantMall-GiantMallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19CAAA22275E750EBE61B62E /* libPods-GiantMallTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GiantMallTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0B7B2E1E238F3C7D93DB1E /* Pods-GiantMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantMall.release.xcconfig"; path = "Target Support Files/Pods-GiantMall/Pods-GiantMall.release.xcconfig"; sourceTree = "<group>"; };
+		406C7B611D1568594847BDBA /* Pods-GiantMall-GiantMallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantMall-GiantMallUITests.debug.xcconfig"; path = "Target Support Files/Pods-GiantMall-GiantMallUITests/Pods-GiantMall-GiantMallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2FC43D2EDB4163003FCDDA /* GiantMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiantMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2FC4402EDB4163003FCDDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E2FC4412EDB4163003FCDDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E2FC4432EDB4163003FCDDA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7E2FC4442EDB4163003FCDDA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7E2FC4462EDB4163003FCDDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E2FC4472EDB4163003FCDDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E2FC44A2EDB4163003FCDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E2FC44C2EDB4166003FCDDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E2FC44F2EDB4166003FCDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E2FC4512EDB4166003FCDDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2FC4522EDB4166003FCDDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E2FC4582EDB4167003FCDDA /* GiantMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiantMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2FC45C2EDB4167003FCDDA /* GiantMallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiantMallTests.m; sourceTree = "<group>"; };
+		7E2FC4622EDB4167003FCDDA /* GiantMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiantMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2FC4662EDB4167003FCDDA /* GiantMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiantMallUITests.m; sourceTree = "<group>"; };
+		7E2FC4682EDB4167003FCDDA /* GiantMallUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiantMallUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B8546B7186F466BFDD3F7AC4 /* Pods-GiantMallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantMallTests.release.xcconfig"; path = "Target Support Files/Pods-GiantMallTests/Pods-GiantMallTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB1CC0D081123F2DA20978DF /* Pods-GiantMallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantMallTests.debug.xcconfig"; path = "Target Support Files/Pods-GiantMallTests/Pods-GiantMallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E05A8F772EDC0B8900A485B1 /* FPLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPLoginView.h; sourceTree = "<group>"; };
+		E05A8F782EDC0B8900A485B1 /* FPLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPLoginView.m; sourceTree = "<group>"; };
+		E05A8F7A2EDC0B9400A485B1 /* FPLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPLoginViewController.h; sourceTree = "<group>"; };
+		E05A8F7B2EDC0B9400A485B1 /* FPLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPLoginViewController.m; sourceTree = "<group>"; };
+		E05A8F7D2EDC0D0B00A485B1 /* FPAppInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAppInteractor.h; sourceTree = "<group>"; };
+		E05A8F7E2EDC0D0B00A485B1 /* FPAppInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAppInteractor.m; sourceTree = "<group>"; };
+		E05A8F812EDC173300A485B1 /* FPLoginRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPLoginRequest.h; sourceTree = "<group>"; };
+		E05A8F822EDC173300A485B1 /* FPLoginRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPLoginRequest.m; sourceTree = "<group>"; };
+		E05A8F852EDC192500A485B1 /* FPLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPLoginManager.h; sourceTree = "<group>"; };
+		E05A8F862EDC192500A485B1 /* FPLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPLoginManager.m; sourceTree = "<group>"; };
+		E05A8F882EDC193500A485B1 /* FPLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPLogin.h; sourceTree = "<group>"; };
+		E05A8F892EDC193500A485B1 /* FPLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPLogin.m; sourceTree = "<group>"; };
+		E05A8F8B2EDC1A5900A485B1 /* FPFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPFileManager.h; sourceTree = "<group>"; };
+		E05A8F8C2EDC1A5900A485B1 /* FPFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPFileManager.m; sourceTree = "<group>"; };
+		E05A8F902EDC22BA00A485B1 /* FPKeyedArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPKeyedArchiver.h; sourceTree = "<group>"; };
+		E05A8F912EDC22BA00A485B1 /* FPKeyedArchiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPKeyedArchiver.m; sourceTree = "<group>"; };
+		E05A8F932EDC275B00A485B1 /* FPTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPTheme.h; sourceTree = "<group>"; };
+		E05A8F942EDC275B00A485B1 /* FPTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPTheme.m; sourceTree = "<group>"; };
+		E05A8F962EDC2A8000A485B1 /* FPHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeView.h; sourceTree = "<group>"; };
+		E05A8F972EDC2A8000A485B1 /* FPHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeView.m; sourceTree = "<group>"; };
+		E05A8F9B2EDC2BEB00A485B1 /* FPBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		E05A8F9C2EDC2BEB00A485B1 /* FPBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		E05A8F9E2EDC2C1000A485B1 /* FPHomeBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeBannerCell.h; sourceTree = "<group>"; };
+		E05A8F9F2EDC2C1000A485B1 /* FPHomeBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeBannerCell.m; sourceTree = "<group>"; };
+		E05A8FA12EDC616000A485B1 /* FPHomeIconCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeIconCell.h; sourceTree = "<group>"; };
+		E05A8FA22EDC616000A485B1 /* FPHomeIconCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeIconCell.m; sourceTree = "<group>"; };
+		E05A8FA42EDC680E00A485B1 /* FPTheme+FPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FPTheme+FPAdd.h"; sourceTree = "<group>"; };
+		E05A8FA52EDC680E00A485B1 /* FPTheme+FPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FPTheme+FPAdd.m"; sourceTree = "<group>"; };
+		E05A8FA72EDC6C1800A485B1 /* FPHomeCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeCellModel.h; sourceTree = "<group>"; };
+		E05A8FA82EDC6C1800A485B1 /* FPHomeCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeCellModel.m; sourceTree = "<group>"; };
+		E05A8FAD2EDC74BA00A485B1 /* FPGoodListRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPGoodListRequest.h; sourceTree = "<group>"; };
+		E05A8FAE2EDC74BA00A485B1 /* FPGoodListRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPGoodListRequest.m; sourceTree = "<group>"; };
+		E0C678062EDC7AA900BC8476 /* FPGood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPGood.h; sourceTree = "<group>"; };
+		E0C678072EDC7AA900BC8476 /* FPGood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPGood.m; sourceTree = "<group>"; };
+		E0C678092EDC7D4600BC8476 /* FPHomeGoodCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeGoodCell.h; sourceTree = "<group>"; };
+		E0C6780A2EDC7D4600BC8476 /* FPHomeGoodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeGoodCell.m; sourceTree = "<group>"; };
+		E0E9F4592EDB442D0075FF54 /* FPTabbarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPTabbarConfig.h; sourceTree = "<group>"; };
+		E0E9F45A2EDB442D0075FF54 /* FPTabbarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPTabbarConfig.m; sourceTree = "<group>"; };
+		E0E9F4602EDB44730075FF54 /* FPBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPBaseViewController.h; sourceTree = "<group>"; };
+		E0E9F4612EDB44730075FF54 /* FPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPBaseViewController.m; sourceTree = "<group>"; };
+		E0E9F4642EDB44730075FF54 /* NSDate+FPCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+FPCalendar.h"; sourceTree = "<group>"; };
+		E0E9F4652EDB44730075FF54 /* NSDate+FPCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FPCalendar.m"; sourceTree = "<group>"; };
+		E0E9F4662EDB44730075FF54 /* UIButton+FPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FPAdd.h"; sourceTree = "<group>"; };
+		E0E9F4672EDB44730075FF54 /* UIButton+FPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FPAdd.m"; sourceTree = "<group>"; };
+		E0E9F4682EDB44730075FF54 /* UIColor+FPAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+FPAdd.h"; sourceTree = "<group>"; };
+		E0E9F4692EDB44730075FF54 /* UIColor+FPAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FPAdd.m"; sourceTree = "<group>"; };
+		E0E9F46A2EDB44730075FF54 /* UIView+FPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FPKit.h"; sourceTree = "<group>"; };
+		E0E9F46B2EDB44730075FF54 /* UIView+FPKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FPKit.m"; sourceTree = "<group>"; };
+		E0E9F46C2EDB44730075FF54 /* UIView+FPLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FPLoading.h"; sourceTree = "<group>"; };
+		E0E9F46D2EDB44730075FF54 /* UIView+FPLoading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FPLoading.m"; sourceTree = "<group>"; };
+		E0E9F46F2EDB44730075FF54 /* FPNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPNavigationController.h; sourceTree = "<group>"; };
+		E0E9F4702EDB44730075FF54 /* FPNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPNavigationController.m; sourceTree = "<group>"; };
+		E0E9F4722EDB44730075FF54 /* FPPopupMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPPopupMenuView.h; sourceTree = "<group>"; };
+		E0E9F4732EDB44730075FF54 /* FPPopupMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPPopupMenuView.m; sourceTree = "<group>"; };
+		E0E9F4752EDB44730075FF54 /* YYFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		E0E9F4762EDB44730075FF54 /* YYFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		E0E9F4772EDB44730075FF54 /* YYWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		E0E9F4782EDB44730075FF54 /* YYWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		E0E9F4872EDB44A40075FF54 /* FPColorConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPColorConfig.h; sourceTree = "<group>"; };
+		E0E9F4882EDB44A40075FF54 /* FPColorConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPColorConfig.m; sourceTree = "<group>"; };
+		E0E9F48B2EDB45C10075FF54 /* FPHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPHomeViewController.h; sourceTree = "<group>"; };
+		E0E9F48C2EDB45C10075FF54 /* FPHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPHomeViewController.m; sourceTree = "<group>"; };
+		E0E9F48F2EDB45FF0075FF54 /* FPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPRequest.h; sourceTree = "<group>"; };
+		E0E9F4902EDB45FF0075FF54 /* FPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPRequest.m; sourceTree = "<group>"; };
+		E0E9F4922EDB46470075FF54 /* FPRequestBlockDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPRequestBlockDefine.h; sourceTree = "<group>"; };
+		E0E9F4972EDB47510075FF54 /* FPThemeRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPThemeRequest.h; sourceTree = "<group>"; };
+		E0E9F4982EDB47510075FF54 /* FPThemeRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPThemeRequest.m; sourceTree = "<group>"; };
+		F295ACC29CD90C57932CA039 /* Pods-GiantMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiantMall.debug.xcconfig"; path = "Target Support Files/Pods-GiantMall/Pods-GiantMall.debug.xcconfig"; sourceTree = "<group>"; };
+		F84E8EE18D80174B9A769F6A /* libPods-GiantMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GiantMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E2FC43A2EDB4163003FCDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF93856C993E7814A745A37C /* libPods-GiantMall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2FC4552EDB4167003FCDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9DB052BF8C40C3B58D64EA /* libPods-GiantMallTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2FC45F2EDB4167003FCDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AAE5598063A02145604444 /* libPods-GiantMall-GiantMallUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D97D4C1FF823D2FAF67BB2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F84E8EE18D80174B9A769F6A /* libPods-GiantMall.a */,
+				0E59ACF9C2078E698345ABC4 /* libPods-GiantMall-GiantMallUITests.a */,
+				19CAAA22275E750EBE61B62E /* libPods-GiantMallTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E2FC4342EDB4163003FCDDA = {
+			isa = PBXGroup;
+			children = (
+				7E2FC43F2EDB4163003FCDDA /* GiantMall */,
+				7E2FC45B2EDB4167003FCDDA /* GiantMallTests */,
+				7E2FC4652EDB4167003FCDDA /* GiantMallUITests */,
+				7E2FC43E2EDB4163003FCDDA /* Products */,
+				9E1F2460189C6CCF467FF1B7 /* Pods */,
+				1D97D4C1FF823D2FAF67BB2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E2FC43E2EDB4163003FCDDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E2FC43D2EDB4163003FCDDA /* GiantMall.app */,
+				7E2FC4582EDB4167003FCDDA /* GiantMallTests.xctest */,
+				7E2FC4622EDB4167003FCDDA /* GiantMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E2FC43F2EDB4163003FCDDA /* GiantMall */ = {
+			isa = PBXGroup;
+			children = (
+				7E2FC4402EDB4163003FCDDA /* AppDelegate.h */,
+				7E2FC4412EDB4163003FCDDA /* AppDelegate.m */,
+				7E2FC4432EDB4163003FCDDA /* SceneDelegate.h */,
+				7E2FC4442EDB4163003FCDDA /* SceneDelegate.m */,
+				E05A8F7D2EDC0D0B00A485B1 /* FPAppInteractor.h */,
+				E05A8F7E2EDC0D0B00A485B1 /* FPAppInteractor.m */,
+				7E2FC4462EDB4163003FCDDA /* ViewController.h */,
+				7E2FC4472EDB4163003FCDDA /* ViewController.m */,
+				E0E9F47B2EDB44730075FF54 /* Common */,
+				E0E9F45E2EDB444F0075FF54 /* Core */,
+				E0E9F45D2EDB44440075FF54 /* Factory */,
+				E0E9F4582EDB44210075FF54 /* Feature */,
+				7E2FC4492EDB4163003FCDDA /* Main.storyboard */,
+				7E2FC44C2EDB4166003FCDDA /* Assets.xcassets */,
+				7E2FC44E2EDB4166003FCDDA /* LaunchScreen.storyboard */,
+				7E2FC4512EDB4166003FCDDA /* Info.plist */,
+				7E2FC4522EDB4166003FCDDA /* main.m */,
+			);
+			path = GiantMall;
+			sourceTree = "<group>";
+		};
+		7E2FC45B2EDB4167003FCDDA /* GiantMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E2FC45C2EDB4167003FCDDA /* GiantMallTests.m */,
+			);
+			path = GiantMallTests;
+			sourceTree = "<group>";
+		};
+		7E2FC4652EDB4167003FCDDA /* GiantMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E2FC4662EDB4167003FCDDA /* GiantMallUITests.m */,
+				7E2FC4682EDB4167003FCDDA /* GiantMallUITestsLaunchTests.m */,
+			);
+			path = GiantMallUITests;
+			sourceTree = "<group>";
+		};
+		9E1F2460189C6CCF467FF1B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F295ACC29CD90C57932CA039 /* Pods-GiantMall.debug.xcconfig */,
+				1B0B7B2E1E238F3C7D93DB1E /* Pods-GiantMall.release.xcconfig */,
+				406C7B611D1568594847BDBA /* Pods-GiantMall-GiantMallUITests.debug.xcconfig */,
+				13E814AE3CCB988F15158A71 /* Pods-GiantMall-GiantMallUITests.release.xcconfig */,
+				DB1CC0D081123F2DA20978DF /* Pods-GiantMallTests.debug.xcconfig */,
+				B8546B7186F466BFDD3F7AC4 /* Pods-GiantMallTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E05A8F742EDC0B6300A485B1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F802EDC172300A485B1 /* Request */,
+				E05A8F762EDC0B7700A485B1 /* Controller */,
+				E05A8F752EDC0B7200A485B1 /* view */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E05A8F752EDC0B7200A485B1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F772EDC0B8900A485B1 /* FPLoginView.h */,
+				E05A8F782EDC0B8900A485B1 /* FPLoginView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E05A8F762EDC0B7700A485B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F7A2EDC0B9400A485B1 /* FPLoginViewController.h */,
+				E05A8F7B2EDC0B9400A485B1 /* FPLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E05A8F802EDC172300A485B1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F812EDC173300A485B1 /* FPLoginRequest.h */,
+				E05A8F822EDC173300A485B1 /* FPLoginRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E05A8F842EDC191600A485B1 /* LoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F852EDC192500A485B1 /* FPLoginManager.h */,
+				E05A8F862EDC192500A485B1 /* FPLoginManager.m */,
+				E05A8F882EDC193500A485B1 /* FPLogin.h */,
+				E05A8F892EDC193500A485B1 /* FPLogin.m */,
+				E0E9F47A2EDB44730075FF54 /* View */,
+			);
+			path = LoginManager;
+			sourceTree = "<group>";
+		};
+		E05A8F8D2EDC1A5900A485B1 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F8B2EDC1A5900A485B1 /* FPFileManager.h */,
+				E05A8F8C2EDC1A5900A485B1 /* FPFileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		E05A8F8F2EDC22A400A485B1 /* KeyedArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F902EDC22BA00A485B1 /* FPKeyedArchiver.h */,
+				E05A8F912EDC22BA00A485B1 /* FPKeyedArchiver.m */,
+			);
+			path = KeyedArchiver;
+			sourceTree = "<group>";
+		};
+		E05A8F992EDC2A8400A485B1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F9E2EDC2C1000A485B1 /* FPHomeBannerCell.h */,
+				E05A8F9F2EDC2C1000A485B1 /* FPHomeBannerCell.m */,
+				E05A8FA12EDC616000A485B1 /* FPHomeIconCell.h */,
+				E05A8FA22EDC616000A485B1 /* FPHomeIconCell.m */,
+				E0C678092EDC7D4600BC8476 /* FPHomeGoodCell.h */,
+				E0C6780A2EDC7D4600BC8476 /* FPHomeGoodCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E05A8F9A2EDC2BDB00A485B1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F9B2EDC2BEB00A485B1 /* FPBaseCollectionViewCell.h */,
+				E05A8F9C2EDC2BEB00A485B1 /* FPBaseCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E05A8FAA2EDC748B00A485B1 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				E0C678052EDC7A9200BC8476 /* Model */,
+				E05A8FAC2EDC74A500A485B1 /* Request */,
+				E05A8FAB2EDC749F00A485B1 /* GoodList */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		E05A8FAB2EDC749F00A485B1 /* GoodList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoodList;
+			sourceTree = "<group>";
+		};
+		E05A8FAC2EDC74A500A485B1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8FAD2EDC74BA00A485B1 /* FPGoodListRequest.h */,
+				E05A8FAE2EDC74BA00A485B1 /* FPGoodListRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E0C678052EDC7A9200BC8476 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0C678062EDC7AA900BC8476 /* FPGood.h */,
+				E0C678072EDC7AA900BC8476 /* FPGood.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0E9F4582EDB44210075FF54 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8FAA2EDC748B00A485B1 /* Good */,
+				E05A8F742EDC0B6300A485B1 /* Login */,
+				E0E9F48A2EDB45A60075FF54 /* Home */,
+				E0E9F45B2EDB442D0075FF54 /* Tabbar */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		E0E9F45B2EDB442D0075FF54 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4592EDB442D0075FF54 /* FPTabbarConfig.h */,
+				E0E9F45A2EDB442D0075FF54 /* FPTabbarConfig.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		E0E9F45D2EDB44440075FF54 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		E0E9F45E2EDB444F0075FF54 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F8F2EDC22A400A485B1 /* KeyedArchiver */,
+				E05A8F842EDC191600A485B1 /* LoginManager */,
+				E0E9F48E2EDB45C80075FF54 /* Network */,
+				E0E9F4862EDB44910075FF54 /* Color */,
+				E05A8F8D2EDC1A5900A485B1 /* FileManager */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E0E9F4622EDB44730075FF54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4602EDB44730075FF54 /* FPBaseViewController.h */,
+				E0E9F4612EDB44730075FF54 /* FPBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0E9F4632EDB44730075FF54 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F9A2EDC2BDB00A485B1 /* Cell */,
+				E0E9F4622EDB44730075FF54 /* Controller */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E0E9F46E2EDB44730075FF54 /* Catetory */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4642EDB44730075FF54 /* NSDate+FPCalendar.h */,
+				E0E9F4652EDB44730075FF54 /* NSDate+FPCalendar.m */,
+				E0E9F4662EDB44730075FF54 /* UIButton+FPAdd.h */,
+				E0E9F4672EDB44730075FF54 /* UIButton+FPAdd.m */,
+				E0E9F4682EDB44730075FF54 /* UIColor+FPAdd.h */,
+				E0E9F4692EDB44730075FF54 /* UIColor+FPAdd.m */,
+				E0E9F46A2EDB44730075FF54 /* UIView+FPKit.h */,
+				E0E9F46B2EDB44730075FF54 /* UIView+FPKit.m */,
+				E0E9F46C2EDB44730075FF54 /* UIView+FPLoading.h */,
+				E0E9F46D2EDB44730075FF54 /* UIView+FPLoading.m */,
+			);
+			path = Catetory;
+			sourceTree = "<group>";
+		};
+		E0E9F4712EDB44730075FF54 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F46F2EDB44730075FF54 /* FPNavigationController.h */,
+				E0E9F4702EDB44730075FF54 /* FPNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E0E9F4742EDB44730075FF54 /* PopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4722EDB44730075FF54 /* FPPopupMenuView.h */,
+				E0E9F4732EDB44730075FF54 /* FPPopupMenuView.m */,
+			);
+			path = PopupMenu;
+			sourceTree = "<group>";
+		};
+		E0E9F4792EDB44730075FF54 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4752EDB44730075FF54 /* YYFPSLabel.h */,
+				E0E9F4762EDB44730075FF54 /* YYFPSLabel.m */,
+				E0E9F4772EDB44730075FF54 /* YYWeakProxy.h */,
+				E0E9F4782EDB44730075FF54 /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		E0E9F47A2EDB44730075FF54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4742EDB44730075FF54 /* PopupMenu */,
+				E0E9F4792EDB44730075FF54 /* YYFPSLabel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0E9F47B2EDB44730075FF54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4632EDB44730075FF54 /* BaseClass */,
+				E0E9F46E2EDB44730075FF54 /* Catetory */,
+				E0E9F4712EDB44730075FF54 /* Navigation */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E0E9F4862EDB44910075FF54 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4872EDB44A40075FF54 /* FPColorConfig.h */,
+				E0E9F4882EDB44A40075FF54 /* FPColorConfig.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		E0E9F48A2EDB45A60075FF54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4962EDB47320075FF54 /* Controller */,
+				E0E9F4952EDB472F0075FF54 /* View */,
+				E0E9F4942EDB472B0075FF54 /* Model */,
+				E0E9F4932EDB47140075FF54 /* Network */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E0E9F48E2EDB45C80075FF54 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F48F2EDB45FF0075FF54 /* FPRequest.h */,
+				E0E9F4902EDB45FF0075FF54 /* FPRequest.m */,
+				E0E9F4922EDB46470075FF54 /* FPRequestBlockDefine.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E0E9F4932EDB47140075FF54 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F4972EDB47510075FF54 /* FPThemeRequest.h */,
+				E0E9F4982EDB47510075FF54 /* FPThemeRequest.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E0E9F4942EDB472B0075FF54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F932EDC275B00A485B1 /* FPTheme.h */,
+				E05A8F942EDC275B00A485B1 /* FPTheme.m */,
+				E05A8FA42EDC680E00A485B1 /* FPTheme+FPAdd.h */,
+				E05A8FA52EDC680E00A485B1 /* FPTheme+FPAdd.m */,
+				E05A8FA72EDC6C1800A485B1 /* FPHomeCellModel.h */,
+				E05A8FA82EDC6C1800A485B1 /* FPHomeCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0E9F4952EDB472F0075FF54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E05A8F962EDC2A8000A485B1 /* FPHomeView.h */,
+				E05A8F972EDC2A8000A485B1 /* FPHomeView.m */,
+				E05A8F992EDC2A8400A485B1 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0E9F4962EDB47320075FF54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F48B2EDB45C10075FF54 /* FPHomeViewController.h */,
+				E0E9F48C2EDB45C10075FF54 /* FPHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E2FC43C2EDB4163003FCDDA /* GiantMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2FC46C2EDB4167003FCDDA /* Build configuration list for PBXNativeTarget "GiantMall" */;
+			buildPhases = (
+				44CDF90418CCFF1AC956ABBE /* [CP] Check Pods Manifest.lock */,
+				7E2FC4392EDB4163003FCDDA /* Sources */,
+				7E2FC43A2EDB4163003FCDDA /* Frameworks */,
+				7E2FC43B2EDB4163003FCDDA /* Resources */,
+				87D483F90D16856CBBCB6459 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiantMall;
+			productName = GiantMall;
+			productReference = 7E2FC43D2EDB4163003FCDDA /* GiantMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E2FC4572EDB4167003FCDDA /* GiantMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2FC46F2EDB4167003FCDDA /* Build configuration list for PBXNativeTarget "GiantMallTests" */;
+			buildPhases = (
+				9689F61A620259C30ABB3056 /* [CP] Check Pods Manifest.lock */,
+				7E2FC4542EDB4167003FCDDA /* Sources */,
+				7E2FC4552EDB4167003FCDDA /* Frameworks */,
+				7E2FC4562EDB4167003FCDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E2FC45A2EDB4167003FCDDA /* PBXTargetDependency */,
+			);
+			name = GiantMallTests;
+			productName = GiantMallTests;
+			productReference = 7E2FC4582EDB4167003FCDDA /* GiantMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E2FC4612EDB4167003FCDDA /* GiantMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2FC4722EDB4167003FCDDA /* Build configuration list for PBXNativeTarget "GiantMallUITests" */;
+			buildPhases = (
+				BBFC2F9506FE735C074F37A3 /* [CP] Check Pods Manifest.lock */,
+				7E2FC45E2EDB4167003FCDDA /* Sources */,
+				7E2FC45F2EDB4167003FCDDA /* Frameworks */,
+				7E2FC4602EDB4167003FCDDA /* Resources */,
+				A07FDDA59776E09817825345 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E2FC4642EDB4167003FCDDA /* PBXTargetDependency */,
+			);
+			name = GiantMallUITests;
+			productName = GiantMallUITests;
+			productReference = 7E2FC4622EDB4167003FCDDA /* GiantMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E2FC4352EDB4163003FCDDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7E2FC43C2EDB4163003FCDDA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7E2FC4572EDB4167003FCDDA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E2FC43C2EDB4163003FCDDA;
+					};
+					7E2FC4612EDB4167003FCDDA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7E2FC43C2EDB4163003FCDDA;
+					};
+				};
+			};
+			buildConfigurationList = 7E2FC4382EDB4163003FCDDA /* Build configuration list for PBXProject "GiantMall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E2FC4342EDB4163003FCDDA;
+			productRefGroup = 7E2FC43E2EDB4163003FCDDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E2FC43C2EDB4163003FCDDA /* GiantMall */,
+				7E2FC4572EDB4167003FCDDA /* GiantMallTests */,
+				7E2FC4612EDB4167003FCDDA /* GiantMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E2FC43B2EDB4163003FCDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2FC4502EDB4166003FCDDA /* LaunchScreen.storyboard in Resources */,
+				7E2FC44D2EDB4166003FCDDA /* Assets.xcassets in Resources */,
+				7E2FC44B2EDB4163003FCDDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2FC4562EDB4167003FCDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2FC4602EDB4167003FCDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44CDF90418CCFF1AC956ABBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiantMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D483F90D16856CBBCB6459 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiantMall/Pods-GiantMall-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiantMall/Pods-GiantMall-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiantMall/Pods-GiantMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9689F61A620259C30ABB3056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiantMallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07FDDA59776E09817825345 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiantMall-GiantMallUITests/Pods-GiantMall-GiantMallUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiantMall-GiantMallUITests/Pods-GiantMall-GiantMallUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiantMall-GiantMallUITests/Pods-GiantMall-GiantMallUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFC2F9506FE735C074F37A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiantMall-GiantMallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E2FC4392EDB4163003FCDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2FC4482EDB4163003FCDDA /* ViewController.m in Sources */,
+				7E2FC4422EDB4163003FCDDA /* AppDelegate.m in Sources */,
+				E05A8F792EDC0B8900A485B1 /* FPLoginView.m in Sources */,
+				E0E9F47C2EDB44730075FF54 /* UIColor+FPAdd.m in Sources */,
+				E05A8F832EDC173300A485B1 /* FPLoginRequest.m in Sources */,
+				E0E9F47D2EDB44730075FF54 /* FPBaseViewController.m in Sources */,
+				E0E9F47E2EDB44730075FF54 /* YYWeakProxy.m in Sources */,
+				E0E9F4912EDB45FF0075FF54 /* FPRequest.m in Sources */,
+				E05A8FAF2EDC74BA00A485B1 /* FPGoodListRequest.m in Sources */,
+				E0E9F4892EDB44A40075FF54 /* FPColorConfig.m in Sources */,
+				E05A8F8A2EDC193500A485B1 /* FPLogin.m in Sources */,
+				E0E9F48D2EDB45C10075FF54 /* FPHomeViewController.m in Sources */,
+				E0E9F4992EDB47510075FF54 /* FPThemeRequest.m in Sources */,
+				E05A8F982EDC2A8000A485B1 /* FPHomeView.m in Sources */,
+				E0E9F47F2EDB44730075FF54 /* UIView+FPLoading.m in Sources */,
+				E05A8FA92EDC6C1800A485B1 /* FPHomeCellModel.m in Sources */,
+				E05A8F952EDC275B00A485B1 /* FPTheme.m in Sources */,
+				E05A8FA62EDC680E00A485B1 /* FPTheme+FPAdd.m in Sources */,
+				E0E9F4802EDB44730075FF54 /* FPNavigationController.m in Sources */,
+				E0E9F4812EDB44730075FF54 /* YYFPSLabel.m in Sources */,
+				E05A8F7C2EDC0B9400A485B1 /* FPLoginViewController.m in Sources */,
+				E0E9F4822EDB44730075FF54 /* UIView+FPKit.m in Sources */,
+				E05A8FA32EDC616000A485B1 /* FPHomeIconCell.m in Sources */,
+				E0E9F4832EDB44730075FF54 /* NSDate+FPCalendar.m in Sources */,
+				E0E9F4842EDB44730075FF54 /* FPPopupMenuView.m in Sources */,
+				E0E9F4852EDB44730075FF54 /* UIButton+FPAdd.m in Sources */,
+				E0E9F45C2EDB442D0075FF54 /* FPTabbarConfig.m in Sources */,
+				E05A8F8E2EDC1A5900A485B1 /* FPFileManager.m in Sources */,
+				E0C6780B2EDC7D4600BC8476 /* FPHomeGoodCell.m in Sources */,
+				7E2FC4532EDB4166003FCDDA /* main.m in Sources */,
+				E05A8F9D2EDC2BEB00A485B1 /* FPBaseCollectionViewCell.m in Sources */,
+				E05A8FA02EDC2C1000A485B1 /* FPHomeBannerCell.m in Sources */,
+				E05A8F872EDC192500A485B1 /* FPLoginManager.m in Sources */,
+				E05A8F922EDC22BA00A485B1 /* FPKeyedArchiver.m in Sources */,
+				E05A8F7F2EDC0D0B00A485B1 /* FPAppInteractor.m in Sources */,
+				E0C678082EDC7AA900BC8476 /* FPGood.m in Sources */,
+				7E2FC4452EDB4163003FCDDA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2FC4542EDB4167003FCDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2FC45D2EDB4167003FCDDA /* GiantMallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2FC45E2EDB4167003FCDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2FC4692EDB4167003FCDDA /* GiantMallUITestsLaunchTests.m in Sources */,
+				7E2FC4672EDB4167003FCDDA /* GiantMallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E2FC45A2EDB4167003FCDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E2FC43C2EDB4163003FCDDA /* GiantMall */;
+			targetProxy = 7E2FC4592EDB4167003FCDDA /* PBXContainerItemProxy */;
+		};
+		7E2FC4642EDB4167003FCDDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E2FC43C2EDB4163003FCDDA /* GiantMall */;
+			targetProxy = 7E2FC4632EDB4167003FCDDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E2FC4492EDB4163003FCDDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2FC44A2EDB4163003FCDDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E2FC44E2EDB4166003FCDDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2FC44F2EDB4166003FCDDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E2FC46A2EDB4167003FCDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E2FC46B2EDB4167003FCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E2FC46D2EDB4167003FCDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F295ACC29CD90C57932CA039 /* Pods-GiantMall.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQN84YY35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiantMall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fp.GiantMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E2FC46E2EDB4167003FCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0B7B2E1E238F3C7D93DB1E /* Pods-GiantMall.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQN84YY35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiantMall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fp.GiantMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E2FC4702EDB4167003FCDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1CC0D081123F2DA20978DF /* Pods-GiantMallTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79F3WJ3VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloOc.GiantMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiantMall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiantMall";
+			};
+			name = Debug;
+		};
+		7E2FC4712EDB4167003FCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8546B7186F466BFDD3F7AC4 /* Pods-GiantMallTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79F3WJ3VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloOc.GiantMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiantMall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiantMall";
+			};
+			name = Release;
+		};
+		7E2FC4732EDB4167003FCDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406C7B611D1568594847BDBA /* Pods-GiantMall-GiantMallUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79F3WJ3VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloOc.GiantMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiantMall;
+			};
+			name = Debug;
+		};
+		7E2FC4742EDB4167003FCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E814AE3CCB988F15158A71 /* Pods-GiantMall-GiantMallUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79F3WJ3VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HelloOc.GiantMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiantMall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E2FC4382EDB4163003FCDDA /* Build configuration list for PBXProject "GiantMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2FC46A2EDB4167003FCDDA /* Debug */,
+				7E2FC46B2EDB4167003FCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2FC46C2EDB4167003FCDDA /* Build configuration list for PBXNativeTarget "GiantMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2FC46D2EDB4167003FCDDA /* Debug */,
+				7E2FC46E2EDB4167003FCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2FC46F2EDB4167003FCDDA /* Build configuration list for PBXNativeTarget "GiantMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2FC4702EDB4167003FCDDA /* Debug */,
+				7E2FC4712EDB4167003FCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2FC4722EDB4167003FCDDA /* Build configuration list for PBXNativeTarget "GiantMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2FC4732EDB4167003FCDDA /* Debug */,
+				7E2FC4742EDB4167003FCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E2FC4352EDB4163003FCDDA /* Project object */;
+}
