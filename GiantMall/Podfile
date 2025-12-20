@@ -14,7 +14,18 @@ target 'GiantMall' do
   pod 'MBProgressHUD' #loading框架
   pod 'YYText'
   pod 'SDCycleScrollView'
-
+  
+  pod 'CTMediator'
+  pod 'FPCategory', :path => './CommonModules/FPCategory'
+  pod 'FPBaseClass', :path => './CommonModules/FPBaseClass'
+  pod 'FPNetwork', :path => './CoreModules/FPNetwork'
+  pod 'FPCore', :path => './CoreModules/FPCore'
+  pod 'FPRouter', :path => './CoreModules/FPRouter'
+  pod 'FPLogin', :path => './FeatureModules/FPLogin'
+  pod 'FPHome', :path => './FeatureModules/FPHome'
+  pod 'FPGood', :path => './FeatureModules/FPGood'
+  pod 'FPMy', :path => './FeatureModules/FPMy'
+  
   # Pods for GiantMall
 
   target 'GiantMallTests' do

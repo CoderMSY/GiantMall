@@ -14,6 +14,17 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CTMediator (48)
+  - FPBaseClass (0.1.0)
+  - FPCategory (0.1.0)
+  - FPCore (0.1.0)
+  - FPGood (0.1.0)
+  - FPHome (0.1.0)
+  - FPLogin (0.1.0)
+  - FPMy (0.1.0)
+  - FPNetwork (0.1.0):
+    - TMUtils
+  - FPRouter (0.1.0)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJExtension (3.4.2)
@@ -30,6 +41,16 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CTMediator
+  - FPBaseClass (from `./CommonModules/FPBaseClass`)
+  - FPCategory (from `./CommonModules/FPCategory`)
+  - FPCore (from `./CoreModules/FPCore`)
+  - FPGood (from `./FeatureModules/FPGood`)
+  - FPHome (from `./FeatureModules/FPHome`)
+  - FPLogin (from `./FeatureModules/FPLogin`)
+  - FPMy (from `./FeatureModules/FPMy`)
+  - FPNetwork (from `./CoreModules/FPNetwork`)
+  - FPRouter (from `./CoreModules/FPRouter`)
   - Masonry
   - MBProgressHUD
   - MJExtension
@@ -43,6 +64,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CTMediator
     - Masonry
     - MBProgressHUD
     - MJExtension
@@ -53,8 +75,38 @@ SPEC REPOS:
     - YTKNetwork
     - YYText
 
+EXTERNAL SOURCES:
+  FPBaseClass:
+    :path: "./CommonModules/FPBaseClass"
+  FPCategory:
+    :path: "./CommonModules/FPCategory"
+  FPCore:
+    :path: "./CoreModules/FPCore"
+  FPGood:
+    :path: "./FeatureModules/FPGood"
+  FPHome:
+    :path: "./FeatureModules/FPHome"
+  FPLogin:
+    :path: "./FeatureModules/FPLogin"
+  FPMy:
+    :path: "./FeatureModules/FPMy"
+  FPNetwork:
+    :path: "./CoreModules/FPNetwork"
+  FPRouter:
+    :path: "./CoreModules/FPRouter"
+
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  FPBaseClass: 8c4b1a39ebf2c366d56d652fcdbc166fee636f61
+  FPCategory: c0072b0d4d18386001fb7cebeb0e6ccbcd17406f
+  FPCore: 712e978665974ccfea6715f004d2edbe9744c53c
+  FPGood: e4e14dbad775b7818777657ad7be4fd40bf82179
+  FPHome: bac11863747f7515cf2f4fbabe30027436067adc
+  FPLogin: 1b6351f7e9ef37ba636e5d5db65b90b8aea8f159
+  FPMy: d1c450d0b54c0fdeadad131c4ec40a0c495595a4
+  FPNetwork: 6becf7c3dfec538a3466a28f9bfd55470e9c60f8
+  FPRouter: 515081af83d08dc6d4e5106a4eb5669cbcd5a74b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
@@ -65,6 +117,6 @@ SPEC CHECKSUMS:
   YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 09930f847ce292de43bd9bbc5cd20edba896c376
+PODFILE CHECKSUM: 6ff169d7ca6cb1140d6ad18a22d4db6b55803582
 
 COCOAPODS: 1.16.2

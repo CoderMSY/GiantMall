@@ -1,0 +1,22 @@
+{
+  "name": "FPLogin",
+  "version": "0.1.0",
+  "summary": "A short description of FPLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2278046701@qq.com/FPLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2278046701@qq.com": "miaoshiyu@richinfo.cn"
+  },
+  "source": {
+    "git": "https://github.com/2278046701@qq.com/FPLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FPLogin/Classes/**/*"
+}

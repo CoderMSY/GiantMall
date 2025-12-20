@@ -1,0 +1,1 @@
+../../../../CoreModules/FPRouter/FPRouter/Classes/Tabbar/FPTabbarConfig.h
