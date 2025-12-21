@@ -31,7 +31,7 @@ MIT
 
 ## FPBaseClass
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -54,7 +54,7 @@ THE SOFTWARE.
 
 ## FPCategory
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -77,7 +77,7 @@ THE SOFTWARE.
 
 ## FPCore
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -100,7 +100,7 @@ THE SOFTWARE.
 
 ## FPGood
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -123,7 +123,7 @@ THE SOFTWARE.
 
 ## FPHome
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -146,7 +146,7 @@ THE SOFTWARE.
 
 ## FPLogin
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -169,7 +169,7 @@ THE SOFTWARE.
 
 ## FPMy
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -192,7 +192,7 @@ THE SOFTWARE.
 
 ## FPNetwork
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -215,7 +215,7 @@ THE SOFTWARE.
 
 ## FPRouter
 
-Copyright (c) 2025 2278046701@qq.com <miaoshiyu@richinfo.cn>
+Copyright (c) 2025 xxx@gmail.com <xxx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
