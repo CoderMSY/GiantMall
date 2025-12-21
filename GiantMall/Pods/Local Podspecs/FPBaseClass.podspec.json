@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of FPBaseClass.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/2278046701@qq.com/FPBaseClass",
+  "homepage": "https://github.com/xxx@gmail.com/FPBaseClass",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "2278046701@qq.com": "miaoshiyu@richinfo.cn"
+    "xxx@gmail.com": "xxx@gmail.com"
   },
   "source": {
-    "git": "https://github.com/2278046701@qq.com/FPBaseClass.git",
+    "git": "https://github.com/xxx@gmail.com/FPBaseClass.git",
     "tag": "0.1.0"
   },
   "platforms": {
